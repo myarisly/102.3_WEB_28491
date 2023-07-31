@@ -1,0 +1,97 @@
+<html>
+    <head>
+        
+        <style>
+        body {
+            background-image: url("img.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        table {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 3px solid #000;
+        }
+            
+        input[type="submit"] {
+        background-color: red;
+        color: white; /* To set the text color as white for better contrast */
+            
+        }
+            
+        input[type="reset"] {
+        background-color: yellow;
+        }
+
+    </style>
+        
+    <title>Registration Form</title>
+    </head>
+
+    <body >
+    
+<center>    
+<table border="3">
+<tr><td>         
+        
+<h1>Registration Form</h1>
+          
+
+<form action="pot" name="Form" action="form.php">
+        
+    <table>
+    <tr>
+        <td><label for="FirstName">First Name</label></td>
+        <td><input type="text" id="Fname" name="Fname"></td> 
+    </tr>
+    <tr>
+        <td><label for="lastName">Last Name</label></td>
+        <td><input type="text" id="Lname" name="Lname"></td>        
+    </tr>
+    <tr>
+    <td><label for="Mnum">Mobile Number</label></td>
+    <td><input type="number" id="Mnum" name="Pnum"></td>    
+    <tr>
+    <td><label for="Gender">Gender:</label></td>
+    <td>
+    <input type="radio" id="male" name="gender" value="maleS">
+    <label for="male">Male</label>
+    <input type="radio" id="fmale" name="gender" value="fmale">
+    <label for="male">Female</label>
+    </td>
+    </tr>
+
+    <tr>
+    <td><label for="Email">Email</label></td>
+    <td><input type="email" id="Email" name="email"></td>
+    </tr>
+    <tr>
+			<td>Favourite Music</td>
+			<td><input type="checkbox" name="fm" value="Pop">Pop
+                <input type="checkbox" name="fm" value="Rock">Rock
+                <input type="checkbox" name="fm" value="other">Other
+            </td>
+		</tr>
+		<tr>
+			<td>Additional Details</td>
+			<td><textarea name="ad" rows="4"></textarea></td>
+		</tr>
+		<tr>
+			
+			<td><input type="checkbox" name="agree" value="ag">I agree to the terms and coditions</td>
+		</tr>
+    <tr>
+            <td><input type="submit" name="Form" value="login button"></td>
+            <td><input type="reset" name="Form" value="Clear button"></td>
+     </tr>   
+    </table>
+    
+</form>
+    
+</td></tr>        
+</table>
+</center> 
+        </body>
+
+</html>
